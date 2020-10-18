@@ -1,5 +1,4 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="assets/logo.svg" />
     <br/><br/>
     Semana Next Level Week 3.0
     <br/><br/>
