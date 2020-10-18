@@ -1,44 +1,113 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    🚀 NLW 3
+</h1>
 
-## Available Scripts
+<p align="center">Aplicação Next Level Week 3ª Edição</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=node&message=12.13.1&color=339933&logo=node.js" />
+  <img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=61DAFB&logo=react" />
+  <img src="https://img.shields.io/static/v1?label=react%20native&message=39.0.1&color=0088CC&logo=reactos" />
+  <img src="https://img.shields.io/badge/last%20commit-october-important" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Lincença</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 📎 Features 
 
-### `yarn test`
+- [x] Criação de Casa de Acolhimento
+- [x] Uploads de Imagens
+- [x] Listagem de Casas de Acolhimento
+- [x] Detalhes da Casa de Acolhimento
+- [x] Atualização do cadastro da Casa de Acolhimento
+- [x] Atualização das Imagens
+- [x] Visualização geográfica da Instituição de Acolhimento
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💻 Projeto
 
-### `yarn build`
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz. Projeto desenvolvido durante a semana do Next Level Week 1ª Edição. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚙ Pré-requisitos
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### 📙 Rodando o Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navegue para a pasta
+$ cd server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Execute as migrations
+$ yarn typeorm migration:run
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Instale as dependências
+$ yarn
 
-## Learn More
+# Execute a aplicação
+$ yarn dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📗 Rodando o Frontend (web)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Navegue para a pasta
+$ cd web
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
+```
+
+### 📘 Rodando o Mobile
+
+```bash
+# Navegue para a pasta
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
+```
+
+### 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- ReactJS
+- React Native
+- NodeJS
+- Typescript
+- SqLite
+- Expo
+
+### 📕 Bibliotecas
+
+Esse projeto foi utilizou das seguintes lib:
+
+- TypeORM
+- Axios
+- Express
+- react-native-maps
+- react-icons
+- multer
+- yup
+- react-leaflet
+- leaflet
