@@ -1,4 +1,5 @@
 <h1 align="center">
+    <img alt="Happy" title="Happy" src="assets/logo.svg" />
     <br/><br/>
     Semana Next Level Week 3.0
     <br/><br/>
@@ -104,3 +105,4 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Lem
 <br/>
 
 ---
+
