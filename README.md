@@ -57,7 +57,6 @@ $ yarn dev:server
 
 # Será executado na port 3333
 ```
-
 ### Frontend
 
 ```bash
