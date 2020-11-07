@@ -85,7 +85,6 @@ $ yarn
 $ yarn start
 
 ```
-
 ## Layout
 
 <div align="center">
